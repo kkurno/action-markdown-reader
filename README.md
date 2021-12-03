@@ -46,7 +46,7 @@ the result in JSON format
       - name: Should be skip
         if: fromJSON(steps.markdown.outputs.data).Main_Topic___My_Markdown.subheader.Sub_Topic.bodies[0].items[1].checked
         run: |-
-          echo "2nd item is not checked"
+          echo "2nd item is checked"
 ```
 
 ## Another example
