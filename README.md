@@ -51,7 +51,7 @@ the result in JSON format
 
 ## Another example
 
-Parse pull request body to be an `markdown` input
+Parse pull request body to be a `markdown` input
 
 ```yaml
       on:
