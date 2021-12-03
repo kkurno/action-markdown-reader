@@ -1,0 +1,30 @@
+{
+  "name": "action-markdown-reader",
+  "version": "0.1.0",
+  "description": "A reader to read data written in markdown format",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkurno/action-markdown-reader.git"
+  },
+  "author": "kkurno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkurno/action-markdown-reader/issues"
+  },
+  "homepage": "https://github.com/kkurno/action-markdown-reader#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "marked": "^4.0.6"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
