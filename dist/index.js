@@ -4593,9 +4593,7 @@ const core = __nccwpck_require__(186);
 const { marked } = __nccwpck_require__(741);
 
 function sculptTokenKey(token) {
-  return token.raw
-    .replace(`${'#'.repeat(token.depth)} `, '')
-    .replace(/\n/g, '')
+  return token.text
     .replace(/[^a-zA-Z0-9]/g, '_');
 }
 
